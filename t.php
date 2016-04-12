@@ -6,7 +6,9 @@
 </head>
 <body>
 	<?php
-	echo "我的第一段 PHP 脚本！";
+	$myfile = fopen("webdictionary.txt", "r") or die("Unable to open file!");
+	echo fread($myfile,filesize("webdictionary.txt"));
+	fclose($myfile);
 	?>
 </body>
 </html>
