@@ -5,10 +5,10 @@
 	<title>php test</title>
 </head>
 <body>
-	<?php
-	$myfile = fopen("webdictionary.txt", "r") or die("Unable to open file!");
-	echo fread($myfile,filesize("webdictionary.txt"));
-	fclose($myfile);
-	?>
+	<form action="welcome.php" method="post">
+		Name: <input type="text" name="name"><br>
+		E-mail: <input type="text" name="email"><br>
+		<input type="submit">
+	</form>
 </body>
 </html>
