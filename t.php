@@ -34,13 +34,13 @@
 		<input type="reset" value="重置">
 
 	</form> -->
-<!-- 
+
 	<script>
 		functon fun(){
 			alert("被点击");
 		}
 	</script>
- -->
-	<button onclick="copyText()">Copy Text</button>
+
+	<button onclick="fun()">Copy Text</button>
 </body>
 </html>
