@@ -34,5 +34,12 @@
 		<input type="reset" value="重置">
 
 	</form>
+
+	<script>
+		functon fun(){
+			alert("被点击");
+		}
+	</script>
+	<button onclick="fun()" value="点击弹出"></button>
 </body>
 </html>
