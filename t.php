@@ -3,6 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>php test</title>
+	<script>
+		functon fun(){
+			alert("被点击");
+		}
+	</script>
 </head>
 <body>
 <!-- 	<form action="welcome_post.php" method="post">
@@ -35,11 +40,7 @@
 
 	</form> -->
 
-	<script>
-		functon fun(){
-			alert("被点击");
-		}
-	</script>
+
 
 	<button onclick="fun()">Copy Text</button>
 </body>
