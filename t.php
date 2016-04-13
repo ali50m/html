@@ -5,7 +5,7 @@
 	<title>php test</title>
 </head>
 <body>
-	<form action="welcome_post.php" method="post">
+<!-- 	<form action="welcome_post.php" method="post">
 		Name: <input type="text" name="name"><br>
 		E-mail: <input type="password" name="email"><br>
 		<input type="submit">
@@ -15,10 +15,10 @@
 		Name: <input type="text" name="name"><br>
 		E-mail: <input type="password" name="email"><br>
 		<input type="submit" value="按此提交">
-	</form>
+	</form> -->
 
 	<!-- 发送电子邮件 -->
-	<form action="MAILTO:ali50m@live.com" method="post" enctype="text/plain">
+<!-- 	<form action="MAILTO:ali50m@live.com" method="post" enctype="text/plain">
 
 		<h3>这个表单会把电子邮件发送到 W3School。</h3>
 		姓名：<br />
@@ -33,13 +33,14 @@
 		<input type="submit" value="发送">
 		<input type="reset" value="重置">
 
-	</form>
-
+	</form> -->
+<!-- 
 	<script>
 		functon fun(){
 			alert("被点击");
 		}
 	</script>
-	<button onclick="fun()" value="click me"></button>
+ -->
+	<button onclick="copyText()">Copy Text</button>
 </body>
 </html>
