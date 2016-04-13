@@ -40,6 +40,6 @@
 			alert("被点击");
 		}
 	</script>
-	<button onclick="fun()" value="点击弹出"></button>
+	<button onclick="fun()" value="click me"></button>
 </body>
 </html>
