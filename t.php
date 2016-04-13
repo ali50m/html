@@ -7,14 +7,14 @@
 <body>
 	<form action="welcome_post.php" method="post">
 		Name: <input type="text" name="name"><br>
-		E-mail: <input type="text" name="email"><br>
+		E-mail: <input type="password" name="email"><br>
 		<input type="submit">
 	</form>
 
 	<form action="welcome_get.php" method="get">
 		Name: <input type="text" name="name"><br>
-		E-mail: <input type="text" name="email"><br>
-		<input type="submit" title="123">
+		E-mail: <input type="password" name="email"><br>
+		<input type="submit">
 	</form>
 </body>
 </html>
