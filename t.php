@@ -14,7 +14,7 @@
 	<form action="welcome_get.php" method="get">
 		Name: <input type="text" name="name"><br>
 		E-mail: <input type="password" name="email"><br>
-		<input type="submit">
+		<input type="submit" value="按此提交">
 	</form>
 </body>
 </html>
